@@ -12,6 +12,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-    run: docker build . --file Dockerfile --tag mrkrrot/frontend-english-platform
+      run: docker build . --file Dockerfile --tag mrkrrot/frontend-english-platform
     - name: Push the Docker image to Docker Hub
-    run: docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_PASSWORD }} && docker push mrkrrot/frontend-english-platform
+    run: docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_PASSWORD }} && docker push mrkrrot/frontend-english-platform:latest
