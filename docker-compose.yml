@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+    web:
+        container_name: english-frontend
+        build: .
+        ports:
+            - "80:3000"
+        
