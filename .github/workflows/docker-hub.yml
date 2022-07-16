@@ -3,11 +3,14 @@ name: Dockerize Frontend English Platform
 on:
   push:
     branches: [ "main" ]
-  merge:
+  pull_request:
+    types: 
+      - closed
     branches: [ "main" ]
 
 jobs:
-  build:
+  if_merged:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
