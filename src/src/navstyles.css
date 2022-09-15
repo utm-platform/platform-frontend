@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #002244;
+}
+
+.nav{
+    border-width: 2px;
+    font-weight: 600;
+    font-size: 0.8571em;
+    line-height: 1.35em;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 3px;
+    padding: 11px 22px;
+    cursor: pointer;
+    background-color: #002244;
+    color: #FFFFFF;
+    transition: all 150ms linear;
+    height: 100px;
+    gap: 2rem;
+}
+
+.nav ul{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    gap: 1 rem;
+
+}
+.nav a{
+    color: inherit;
+}
+
+.logo{
+    height: 90%;
+    padding: 0 1rem;
+}
+.nav .avatar{
+    height: 90%;
+}
+.container {
+    height: 100%;
+}
