@@ -1,5 +1,5 @@
 import logo from './img/UTMatamorosBIS-BLANCO.png';
-import avatar from './img/default-avatar.png'
+import avatar from './img/default-avatar.png';
 import React from 'react';
 import './index.css';
 

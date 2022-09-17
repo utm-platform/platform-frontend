@@ -4,7 +4,7 @@ const Gram = () => {
     return (
       <main>
         <br></br>
-        <div class="container relative overflow-hidden rounded-lg md:h-100 bg-blue-900">
+        <div class="container relative overflow-hidden rounded-lg mx-auto bg-blue-900">
             <div class="container">
             <h1 class="text-5xl text-center font-extrabold dark:text-white">Grammar</h1>
             <h5 class="text-xl text-center font-bold dark:text-white">Part 1</h5>
@@ -33,15 +33,28 @@ const Gram = () => {
                     <input id="default-radio-1" type="radio" value="" name="default-radio" class="mx-1"></input>
                     <label for="default-radio-1" class="text-lg text-center font-normal dark:text-white">  day</label>
                 </div>
+            </div>  
+          </div>
+          <br></br>
+          <div class="grid grid-cols-4 gap-4 ">
+            <div>
+              <h1 class="text-5xl text-center font-bold mx-10 dark:text-white">1/25</h1>
+              <h2 class="text-2xl text-center font-semibold text-white">Question</h2>
             </div>
-            <div class="container mx-20">
+            <div>
+              <h1 class="text-5xl text-center font-bold mx-10 dark:text-white">00:00</h1>
+              <h2 class="text-2xl text-center font-semibold text-white">Time left</h2>
+            </div>
+            <div>
+            </div>
+            <div class="container">
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold w-40 py-2 px-8 mx-2 my-4 rounded">Back</button>
+              <button class="bg-green-500 hover:bg-green-700 text-white font-bold w-40 py-2 px-8 mx-2 my-4 rounded">Next</button>
+              </div>
+              </div>
               <br></br>
-              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Back</button>
-              <span>   </span>
-              <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Next</button>
+          <div>
 
-            <br/>
-          </div> 
           </div>
           
             
