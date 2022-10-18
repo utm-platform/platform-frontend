@@ -21,8 +21,6 @@ const Index = () => {
             </div>  
           </div>
         </div>
-        <div  class="text-5xl text-center font-bold mx-10 dark:text-white pt-3"id="ENQ"></div>
-        <script type="module" src="./QUESTION.jsx"></script>
         </main>
     )
 }

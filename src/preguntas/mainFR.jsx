@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import '../example/src/global.css';
-import App from "./grammar-demox";
+import '../index.css';
+import GramFR from "./FRQ";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GramFR />
   </React.StrictMode>,
-  document.getElementById("ENQ")
+  document.getElementById("french")
 );

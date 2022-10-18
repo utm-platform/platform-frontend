@@ -2,8 +2,8 @@ import { Routes, Route } from 'react-router-dom'
 import Index from './pages'
 import React from "react";
 import Nav from './Nav';
-import Gram from './pages/grammar-copy';
-import Play from './pages/grammar-fr';
+import Gram from './pages/grammar-EN';
+import GramFR from './pages/grammar-FR';
 
 
 
@@ -15,7 +15,7 @@ function App() {
             <Route path="/" element={<Index/>} />
             <Route path='*' element={<h1>Error 404</h1>} />
             <Route path="/grammar" element={<Gram/>} />
-            <Route path="/play" element={<Play/>} />
+            <Route path="/play" element={<GramFR/>} />
         </Routes>
         <section >
 

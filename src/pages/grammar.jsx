@@ -43,7 +43,7 @@ const Gram = () => {
               <h2 class="text-2xl text-center font-semibold text-white pb-3">Time left</h2>
             </div>
             <div class="col-span-2 container flex items-center justify-end">
-                <button class="place-self-center bg-sky-800 hover:bg-blue-700 px-8 py-2 mx-4 text-white font-bold rounded">Back</button>
+                <button class="place-self-center bg-sky-800 hover:bg-blue-800 px-8 py-2 mx-4 text-white font-bold rounded">Back</button>
                 <button class="place-self-center bg-verde hover:bg-green-700 px-8 py-2 mx-4 text-white font-bold rounded justify-self-center">Next</button> 
             </div>
           </div>

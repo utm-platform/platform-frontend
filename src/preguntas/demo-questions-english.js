@@ -27,12 +27,21 @@ const questions = [
       ],
     },
     {
-      titulo: "Mrs. Johnson _______ in this neighborhood for 30 years/",
+      titulo: "Mrs. Johnson _______ in this neighborhood for 30 years.",
       opciones: [
         { textoRespuesta: "A. lives", isCorrect: false },
         { textoRespuesta: "B. living", isCorrect: false },
         { textoRespuesta: "C. is living", isCorrect: false },
         { textoRespuesta: "D. has lived", isCorrect: true },
+      ],
+    },
+    {
+      titulo: "We ______ any more applications at time",
+      opciones: [
+        { textoRespuesta: "A. are not taken", isCorrect: false },
+        { textoRespuesta: "B. have not taken", isCorrect: false },
+        { textoRespuesta: "C. are not taking", isCorrect: true },
+        { textoRespuesta: "D. do not taking ", isCorrect: false },
       ],
     },
   ];
