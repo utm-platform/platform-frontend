@@ -25,6 +25,10 @@ module.exports = {
         azul: '#002244',
         gris: '#a5acaf',
         verde: '#69BE28',
+        green_blue: '#04a57b',
+        gris_txt: '#b4b3b4',
+        blanco_txt: '#f2f2f2',
+        gris_oscuro: '#7c7c7c',
       }
     },
   },
