@@ -3,6 +3,7 @@ import EN from '../img/languages/EN.png';
 import FR from '../img/languages/FR.png';
 import { Route, Routes, Link } from 'react-router-dom';
 const Index = () => {
+
     return (
         <main>
           <div class="container relative overflow-hidden rounded-lg place-content-center mx-auto my-4 bg-azul">

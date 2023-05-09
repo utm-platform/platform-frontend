@@ -9,7 +9,7 @@ export default function SideBar() {
                 <img src={Logo} className='w-fit p-2.5' />
                 <hr className="bg-gris_txt h-0.5 mx-2 mb-2" />
                 <ItemList txt='Dashboard' link='/dashboard'/>
-                <ItemList txt='Teachers' link='#'/>
+                <ItemList txt='Teachers' link='/teachers'/>
                 <ItemList txt='Groups' link='#'/>
                 <ItemList txt='Students' link='#'/>
             </div>

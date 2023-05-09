@@ -5,11 +5,13 @@ import Gram from './pages/grammar-EN';
 import GramFR from './pages/grammar-FR';
 import Dashboard from './pages/dashboard';
 import SideBar from './components/SideBar';
+import Teachers from './pages/Teachers';
 
 function App() {
     return (
         <>
         <Routes>
+            <Route path='/teachers' element={<Teachers />} />
             <Route path='/dashboard' element={<Dashboard/>} />
             <Route path="/" element={<Index/>} />
             <Route path='*' element={<h1>Error 404</h1>} />

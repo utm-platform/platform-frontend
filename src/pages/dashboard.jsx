@@ -17,7 +17,7 @@ const Dashboard = () => {
                 <SideBar />
                 <div className=' bg-green_blue w-full h-fit'>
                     <Header />
-                    <div className='justify-evenly flex flex-row pb-16 pt-10 flex-wrap'>
+                    <div className='justify-evenly flex flex-row pb-16 pt-10 flex-wrap p-5'>
                         <WhiteBox txt='Teachers' />
                         <WhiteBox txt='Groups' />
                         <WhiteBox txt='Students' />

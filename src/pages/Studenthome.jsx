@@ -1,8 +1,5 @@
 import React,{Component} from "react";
 
-
-
-
 /*class Studenthome extends Component{
 render(){
     return <h1>{this.props.msg}</h1>;
