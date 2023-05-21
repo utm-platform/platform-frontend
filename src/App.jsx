@@ -6,9 +6,11 @@ import GramFR from './pages/grammar-FR';
 import Dashboard from './pages/dashboard';
 import SideBar from './components/SideBar';
 import Teachers from './pages/Teachers';
+import './index.css';
 
 function App() {
     return (
+
         <>
         <Routes>
             <Route path='/teachers' element={<Teachers />} />
@@ -22,7 +24,10 @@ function App() {
 
         </section>
         </>
-        
+
+        // <Dashboard></Dashboard>
+        // <Teachers></Teachers>
+
     )
 }
 
